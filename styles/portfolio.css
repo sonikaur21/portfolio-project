@@ -22,6 +22,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  text-align: left;
 }
 
 h2 {
@@ -67,6 +68,10 @@ h2 {
 .project-descript {
   padding: 120px 60px;
 }
+.about-section-content .fullName {
+  position: relative;
+  top: -30px;
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 60px;
@@ -81,6 +86,30 @@ h2 {
   .project-descript {
     padding: 0;
     text-align: center;
+  }
+  .about-section-content h1 {
+    text-align: center;
+  }
+  .about-section-content .name {
+    font-size: 35px;
+  }
+  .about-section-content .fullName {
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+  }
+  .about-section-content .description {
+    position: relative;
+    top: -50px;
+  }
+  .about-section-content .paragraph {
+    position: relative;
+    top: -50px;
+  }
+  .btn-branding {
+    display: block !important;
+    margin: 0 auto !important;
+    margin-top: 15px;
   }
 }
 
@@ -97,7 +126,9 @@ h2 {
   max-height: 100%;
   object-fit: contain; /* scales image to fit inside */
 }
-
+.about-section {
+  padding: 160px 20px;
+}
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -105,4 +136,7 @@ h2 {
 .about-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
 }
