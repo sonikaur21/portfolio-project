@@ -105,6 +105,9 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 10px;
 }
+footer .contact-box p {
+  margin: 0;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -166,8 +169,14 @@ footer .social-links a:hover {
     margin: 0 auto !important;
     margin-top: 15px;
   }
+
   nav a {
     font-size: 18px;
+  }
+  footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
   }
 }
 
@@ -207,4 +216,9 @@ footer .social-links a:hover {
 .content p {
   margin: 0;
   font-size: 14px;
+}
+footer .contact-box .btn-branding {
+  font-size: 14px;
+  padding: 8px 16px;
+  line-height: 20px;
 }
