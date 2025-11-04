@@ -97,6 +97,9 @@ nav a:hover,
 nav li.active a {
   color: var(--brading-color);
 }
+nav img {
+  max-width: 50px;
+}
 footer {
   margin: 60px 0;
 }
