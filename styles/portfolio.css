@@ -76,7 +76,13 @@ h4 {
   top: -30px;
 }
 nav {
-  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* makes it visible over content */
+  z-index: 1000; /* ensures it stays above everything else */
+  padding: 5px 10px; /* keeps your original padding */
 }
 nav ul {
   padding: 0;
