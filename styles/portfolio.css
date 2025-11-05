@@ -68,12 +68,16 @@ h4 {
   line-height: 27px;
   padding: 15px 30px;
 }
+
 .project-descript {
   padding: 120px 60px;
 }
 .content .fullName {
   position: relative;
   top: -30px;
+}
+.contact-paragraph {
+  font-size: 20px;
 }
 nav {
   position: fixed;
@@ -139,6 +143,46 @@ footer .social-links a:hover {
   background: var(--brading-color);
 }
 
+.square-one {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  position: relative;
+  right: -150px;
+}
+
+.square img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* scales image to fit inside */
+}
+.content-container {
+  padding: 60px 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+.content {
+  margin: 30px;
+}
+.content p {
+  margin: 0;
+  font-size: 14px;
+}
+.email a {
+  color: var(--brading-color);
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 60px;
@@ -187,42 +231,4 @@ footer .social-links a:hover {
     padding: 30px 120px;
     border-radius: 10px;
   }
-}
-
-.square-one {
-  width: 500px;
-  height: 500px;
-  display: flex;
-  position: relative;
-  right: -150px;
-}
-
-.square img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain; /* scales image to fit inside */
-}
-.content-container {
-  padding: 60px 20px;
-}
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-.content h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  margin: 20px 0 0;
-  font-family: var(--default-font-family);
-}
-.content {
-  margin: 30px;
-}
-.content p {
-  margin: 0;
-  font-size: 14px;
 }
