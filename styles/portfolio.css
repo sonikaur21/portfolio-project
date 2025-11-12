@@ -144,17 +144,21 @@ footer .social-links a:hover {
 }
 
 .square-one {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   position: relative;
-  right: -150px;
+  right: -50px; /* remove the push */
 }
 
 .square img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain; /* scales image to fit inside */
+  display: block;
 }
 .content-container {
   padding: 60px 20px;
