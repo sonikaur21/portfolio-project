@@ -204,6 +204,63 @@ footer .social-links a:hover {
 .email a {
   color: var(--brading-color);
 }
+
+.contact-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: left;
+  margin-left: 40px;
+}
+label {
+  color: #676767;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 850px;
+  width: 100%;
+}
+
+/* Two-column rows */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Message row spans full width */
+.form-row.full-width {
+  grid-template-columns: 1fr;
+}
+
+.contact-inputs {
+  width: 100%;
+  height: 50px;
+  border: 1 solid blue;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+textarea.contact-inputs {
+  height: 200px;
+  padding-top: 15px;
+  resize: none;
+}
+
+.contact-left button {
+  align-self: flex-start;
+  padding: 15px 40px;
+  font-size: 16px;
+  color: white;
+  background: var(--brading-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 60px;
