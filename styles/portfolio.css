@@ -312,4 +312,11 @@ textarea.contact-inputs {
     padding: 30px 120px;
     border-radius: 10px;
   }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  textarea.contact-inputs {
+    height: 200px;
+  }
 }
