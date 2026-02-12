@@ -319,4 +319,7 @@ textarea.contact-inputs {
   textarea.contact-inputs {
     height: 200px;
   }
+  footer p .copyright {
+    font-size: 14px;
+  }
 }
